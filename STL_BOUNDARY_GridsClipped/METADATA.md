@@ -14,7 +14,7 @@
   * **Spatial Representation Type -** Vector - Polygons
   * **Coordinate System -**
     * `.shp` - UTM Zone 15N (EPSG:32615)
-    * `.gpkg` - NAD 1983 (EPSG:4269)
+    * `.gpkg` - UTM Zone 15N (EPSG:32615)
     * `.geoJSON` - WGS 1984 (EPSG:4326)
   * **Language -** English
   * **Topic Category -** Spatial Statistics
