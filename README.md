@@ -4,6 +4,7 @@
 [![](https://img.shields.io/github/release/slu-openGIS/STL_BOUNDARY_Grids.svg?label=version)](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/releases)
 [![](https://img.shields.io/github/last-commit/slu-openGIS/STL_BOUNDARY_Grids.svg)](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/commits/master)
 [![](https://img.shields.io/github/repo-size/slu-openGIS/STL_BOUNDARY_Grids.svg)](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/)
+[![DOI](https://zenodo.org/badge/172266208.svg)](https://zenodo.org/badge/latestdoi/172266208)
 
 ### Overview
 This repository contains several versions of a square kilometer fishnet clipped to the City of St. Louis's extent on its northern, western, and southern borders. On the eastern border, it is clipped to the Mississippi River shoreline. The three versions included are:
@@ -11,7 +12,7 @@ This repository contains several versions of a square kilometer fishnet clipped 
 * `STL_BOUNDARY_Grids` - all grid squares within the boundary described above ([preview](STL_BOUNDARY_Grids/geoJSON/STL_BOUNDARY_Grids.geoJSON))
 * `STL_BOUNDARY_GridsClipped` - all grid squares within the boundary described above, with several major parks clipped out; the resulting slivers remain part of their original features ([preview](STL_BOUNDARY_GridsClipped/geoJSON/STL_BOUNDARY_GridsClipped.geoJSON))
 * `STL_BOUNDARY_GridsExploded` - all grid squares within the boundary described above, with several major parks clipped out; the resulting slivers are rendered as separate polygon features ([preview](STL_BOUNDARY_GridsExploded/geoJSON/STL_BOUNDARY_GridsExploded.geoJSON))
-
+g
 ### Formats
 Each of the three versions is included as `.shp`, `.gpkg`, and `.geoJSON` formats.
 
