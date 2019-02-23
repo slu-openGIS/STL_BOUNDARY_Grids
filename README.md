@@ -8,9 +8,9 @@
 ### Overview
 This repository contains several versions of a square kilometer fishnet clipped to the City of St. Louis's extent on its northern, western, and southern borders. On the eastern border, it is clipped to the Mississippi River shoreline. The three versions included are:
 
-* `STL_BOUNDARY_Grids` - all grid squares within the boundary described above ([preview](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/blob/master/STL_BOUNDARY_Grids/geoJSON/STL_BOUNDARY_Grids.geojson))
-* `STL_BOUNDARY_GridsClipped` - all grid squares within the boundary described above, with several major parks clipped out; the resulting slivers remain part of their original features ([preview](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/blob/master/STL_BOUNDARY_GridsClipped/geoJSON/STL_BOUNDARY_GridsClipped.geojson))
-* `STL_BOUNDARY_GridsExploded` - all grid squares within the boundary described above, with several major parks clipped out; the resulting slivers are rendered as separate polygon features ([preview](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/blob/master/STL_BOUNDARY_GridsExploded/geoJSON/STL_BOUNDARY_GridsExploded.geojson))
+* `STL_BOUNDARY_Grids` - all grid squares within the boundary described above ([preview](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/blob/master/STL_BOUNDARY_Grids/geoJSON/STL_BOUNDARY_Grids.geoJSON))
+* `STL_BOUNDARY_GridsClipped` - all grid squares within the boundary described above, with several major parks clipped out; the resulting slivers remain part of their original features ([preview](https://github.com/slu-openGIS/STL_BOUNDARY_Grids/blob/master/STL_BOUNDARY_GridsClipped/geoJSON/STL_BOUNDARY_GridsClipped.geoJSON))
+* `STL_BOUNDARY_GridsExploded` - all grid squares within the boundary described above, with several major parks clipped out; the resulting slivers are rendered as separate polygon features ([preview](STL_BOUNDARY_GridsExploded/geoJSON/STL_BOUNDARY_GridsExploded.geoJSON))
 
 ### Formats
 Each of the three versions is included as `.shp`, `.gpkg`, and `.geoJSON` formats.
